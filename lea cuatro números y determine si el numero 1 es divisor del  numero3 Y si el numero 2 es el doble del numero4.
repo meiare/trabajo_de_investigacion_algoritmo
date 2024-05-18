@@ -1,0 +1,42 @@
+Algoritmo verificar_numeros
+	// Declaración de variables
+    Definir numero1, numero2, numero3, numero4 Como Real
+    Definir esDivisor, esDoble Como Logico
+	
+    // Lectura de los cuatro números
+    Escribir "Ingrese el primer número: "
+    Leer numero1
+    Escribir "Ingrese el segundo número: "
+    Leer numero2
+    Escribir "Ingrese el tercer número: "
+    Leer numero3
+    Escribir "Ingrese el cuarto número: "
+    Leer numero4
+	
+    // Verificación si el numero1 es divisor de numero3
+    Si numero3 % numero1 = 0 Entonces
+        esDivisor = Verdadero
+    SiNo
+        esDivisor = Falso
+    FinSi
+	
+    // Verificación si el numero2 es el doble de numero4
+    Si numero2 = 2 * numero4 Entonces
+        esDoble = Verdadero
+    SiNo
+        esDoble = Falso
+    FinSi
+	
+    // Mostrar resultados
+    Si esDivisor Entonces
+        Escribir "El número 1 es divisor del número 3."
+    SiNo
+        Escribir "El número 1 no es divisor del número 3."
+    FinSi
+	
+    Si esDoble Entonces
+        Escribir "El número 2 es el doble del número 4."
+    SiNo
+        Escribir "El número 2 no es el doble del número 4."
+    FinSi
+    FinAlgoritmo
