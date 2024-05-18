@@ -1,0 +1,14 @@
+Algoritmo Secuencia
+    Definir n, respuesta, i, resultado Como Entero
+    respuesta <- 2
+    resultado <- 2
+    Escribir respuesta
+    Para i<-2 Hasta 6 Con Paso 1 Hacer
+        Si i Mod 2 = 0 Entonces
+            resultado <- resultado * 2
+        Sino
+            resultado <- resultado * i
+        FinSi
+        Escribir resultado
+    FinPara
+FinAlgoritmo
