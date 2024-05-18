@@ -17,15 +17,15 @@ Algoritmo CalcularPromedioPareseImpares
 	// Leer los elementos del arreglo
 	Para i <- 0 Hasta n - 1 Hacer
 		Escribir "Ingrese el elemento ", i + 1, ": "
-		Leer numeros[i]
+		Leer numeros[n]
 		
 		// Calcular la suma de pares e impares
-		Si numeros[i] % 2 = 0 Entonces
-			sumaPares <- sumaPares + numeros[i]
+		Si numeros[n] % 2 = 0 Entonces
+			sumaPares <- sumaPares + numeros[n]
 			resultadoPares[contPares] <- numeros[i]
 			contPares <- contPares + 1
 		Sino
-			sumaImpares <- sumaImpares + numeros[i]
+			sumaImpares <- sumaImpares + numeros[n]
 			resultadoImpares[contImpares] <- numeros[i]
 			contImpares <- contImpares + 1
 		FinSi
